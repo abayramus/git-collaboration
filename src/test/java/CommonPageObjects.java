@@ -25,6 +25,9 @@ public class CommonPageObjects {
       @FindBy(xpath="//input[@class='flex-1']")
     public WebElement dropdown;
 
+      @FindBy(xpath="//input[@class='flex-1']")
+    public WebElement table;
+
 
 
 }
