@@ -13,4 +13,13 @@ public class CommonPageObjects {
     @FindBy(xpath="//span[@class='flex-1']")
     public WebElement searchBox;
 
+    @FindBy(linkText = "Alışveriş")
+    public WebElement shoppingOption;
+    @FindBy(xpath = "(//div[@class='sh-dgr__content']//h3[@class='tAxDx'])[1]")
+    public WebElement firstShoppingOption;
+
+    @FindBy(xpath = "(//div[@class='QS5gu sy4vM'])[2]")
+    public WebElement popUpAccept;
+
+
 }
