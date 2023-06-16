@@ -13,4 +13,8 @@ public class CommonPageObjects {
     @FindBy(xpath="//span[@class='flex-1']")
     public WebElement searchBox;
 
+      @FindBy(xpath="//input[@class='flex-1']")
+    public WebElement dropdown;
+
+
 }
